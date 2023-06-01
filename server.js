@@ -20,4 +20,8 @@ app.get('/alejo', (req, res) => {
   res.send('Hello Alejandro');
 });
 
+app.get('/seth', (req, res) => {
+  res.send('Hello Seth');
+});
+
 app.listen(port, () => console.log('Listening'));
