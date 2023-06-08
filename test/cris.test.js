@@ -8,5 +8,5 @@ it("Test to get 'Hello Cristhians'", async () => {
 
   name = await response.text();
 
-  expect(name).toBe('Hello Cris');
+  expect(name).toBe('Hello Cristhians');
 });
